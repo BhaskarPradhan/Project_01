@@ -1,0 +1,180 @@
+.navbar{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    justify-content: space-between;
+    /* position: fixed; */
+}
+
+.logo{
+    font-size: xx-large;
+    color: white;
+    margin-right: 10px;
+    
+}
+
+#search{
+    width: 600px;
+    margin-right: 10px;
+    /* margin-left: 100px; */
+}
+
+.buttons{
+    display: flex;
+    margin-top: 5px;
+    width: 300px;
+    justify-content: space-around;
+}
+
+.login{
+    width: 60px;
+}
+
+.explore{
+    width: 60px;
+}
+
+.rent{
+    width: 60px;
+}
+.about_flex{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.about_us{
+    width: fit-content;
+    height: fit-content;
+    background-color: red;
+}
+
+.about_heading{
+    color: white;
+    margin-left: 10px;
+    font-size: xx-large;
+}
+
+.all_about{
+
+}
+
+.table{
+    border: 1px solid black;
+}
+.img{
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+.watch{
+    margin-top: 0px;
+    margin-left:  100px ;
+}
+
+.watch_row{
+    width: 500px;
+}
+.about_para{
+    width: 50%;
+    font-size: xx-large;
+}
+
+tr{
+    height: 120px;
+}
+
+.btn_01{
+    font-size: x-large;
+    height: 40px;
+    border-radius: 50px;
+    background-color: yellow;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+
+.flex_catagory{
+    display: flex;
+    justify-content: center;
+    /* width: fit-content;
+    height: fit-content; */
+}
+
+.catagory{
+    /* width: 200px;
+    height: 200px; */
+    width: fit-content;
+    height: fit-content;
+    background-color: green;
+    
+}
+
+.catagory_heading{
+    font-size: xx-large;
+    margin-left: 10px;
+}
+.catagory_table{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 50px;
+    column-gap: 50px;
+}
+
+.box{
+    width: 200px;
+    height: 250px;
+    background-color: gray;
+    /* margin-left: 20%;
+    margin-right: 20%; */
+    /* padding-left: 30px; */
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+.btn{
+    background-color: yellow;
+    padding: 3px;
+    margin-top: 15px;
+    margin-left: 80px;
+    border-radius: 50px;
+
+}
+
+
+.footer{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    background-color: blue;
+    justify-content: space-between;
+    
+
+}
+
+.forent_footer{
+    width: 350px;
+    height: fit-content;
+    margin-left: 30px;
+    font-size: x-small;
+    
+}
+.site_map{
+    font-size: x-small;
+}
+
+.socials{
+    width: 350px;
+    height: fit-content;
+    text-align: center;
+    font-size: x-small;
+
+}
